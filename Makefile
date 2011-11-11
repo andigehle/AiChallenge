@@ -10,12 +10,12 @@ JAR=MyBot.jar
 all: $(CLASSES) $(JAR)
 
 $(JAR): $(CLASSES)
-	jar cvfm $(JAR) Manifest.txt *.class
+jar cvfm $(JAR) Manifest.txt *.class
 
 %.class: %.java
-	$(JAVAC) $(JAVAC_ARGS) $<
+$(JAVAC) $(JAVAC_ARGS) $<
 
 clean:
-	-rm -Rf $(CLASSES)
-	-rm -Rf *.class
-	-rm -Rf $(JAR)
+-rm -Rf $(CLASSES)
+-rm -Rf *.class
+-rm -Rf $(JAR)
