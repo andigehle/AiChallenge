@@ -1,0 +1,1 @@
+python %1 --player_seed 7 --end_wait=0.25 --verbose --log_dir game_logs --turns 60 --map_file %2 %3 %4 %5 -e
