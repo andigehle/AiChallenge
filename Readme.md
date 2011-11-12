@@ -16,9 +16,8 @@ Programm > New
 			${workspace_loc:/AiChallenge/play.cmd}
 		Arguments:
 		"D:/Path/To/workspace/AiChallenge/tools/playgame.py"
-		"D:/Path/To/workspace/AiChallenge/tools/maps/maze/maze_03p_01.map"
+		"D:/Path/To/workspace/AiChallenge/tools/maps/example/tutorial1.map"
 		"java -cp 'D:/Path/To/workspace/AiChallenge/bin/' MyBot"
-		"python D:/Path/To/workspace/AiChallenge/tools/sample_bots/python/GreedyBot.py"
 		"python D:/Path/To/workspace/AiChallenge/tools/sample_bots/python/HunterBot.py"
 		
 ### For testing the bot
